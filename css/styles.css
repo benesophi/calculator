@@ -1,5 +1,8 @@
+body{
+    background-color: #ffffff;
+}
 
-.line1, .line2, .line3, .line4, .line5 {
+.line1, .line2, .line3, .line4, .line5, .clearbutton {
     display: flex;
     gap: 5px;
 }
@@ -8,11 +11,32 @@ button {
     flex: 1;                
     height: 50px;
     font-size: 18px;
+    background-color: #ffffc5;  
+    color: #3a3632;
+}
+
+#number0 {
+    flex: 3;
+}
+
+#division, #multiplication, #subtration, #sum, #egual {
+    background-color: #a13f0e;   
+    color: #ffffc5;
 }
 
 #entree {
-    flex: 2;                 
+    flex: 3;                 
     font-size: 20px;
     text-align: right;     
     padding-right: 8px;
+    background-color: #ffffc5;   
+}
+
+#clear{
+    flex: 5;
+    font-size: 20px;
+    text-align: center;     
+    padding-right: 8px;
+    background-color: #a13f0e;   
+    color: #ffffc5;
 }
